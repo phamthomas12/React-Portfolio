@@ -1,6 +1,6 @@
 import React from "react";
 import Project1 from "./Images/Project1.PNG"
-import Burger from "./Images/Eat-Da-Burger.PNG"
+import Project3 from "./Images/Project3.PNG"
 import Project2 from "./Images/Project2.PNG"
 import Budget from "./Images/Budget.PNG"
 import Day from "./Images/Day-Schedular.PNG"
@@ -32,26 +32,6 @@ function Projects() {
               </div>
               </div>
               <div class="col-sm-4" id="foliocolumn">
-                        <div class="content">
-                            <div class="content-overlay">
-    
-                                <div class="content-details">
-                                    <h5>Eat Da Burger</h5>
-                                    <p class="hovertext">Users can filter or sort through the directory to find an employee
-                                      and quickly access their info.
-                                    </p>
-                                    <p>Node | Express | MySQL | Sequelize | Materialize | Handlebars | Heroku</p>
-                                    <a href="https://github.com/phamthomas12/Eat-Da_Burger" class="githublink"
-                                        target="_blank"><strong>GitHub</strong></a>
-                                    <a href="https://blooming-badlands-42754.herokuapp.com/" class="websitelink"
-                                        target="_blank"><strong>|Deployed Site</strong></a>
-                                </div>
-                            </div>
-                            <img src= {Burger} alt="Eat-Da-Burger" class="thumbnails" id="burger">
-                        </img>
-                    </div>
-              </div>
-              <div class="col-sm-4" id="foliocolumn">
                       <div class="content">
                           <div class="content-overlay">
   
@@ -68,6 +48,25 @@ function Projects() {
                               </div>
                           </div>
                           <img src={Project2} alt="Well-Me" class="thumbnails" id="project2"></img>
+                  </div>
+                  </div>
+              <div class="col-sm-4" id="foliocolumn">
+                      <div class="content">
+                          <div class="content-overlay">
+  
+                              <div class="content-details">
+                                  <h5>Project 3</h5>
+                                  <p class="hovertext">This is a booking system application for a holiday house down on the Bayside of Melbourne, Victoria. The website allows a user to log in and lodge
+                                  a booking request for the host to approve or dissaprove.
+                                  </p>
+                                  <p>MongoDB |Express.js | React.js | Node.js | Semantic UI | Heroku</p>
+                                  <a href="https://github.com/phamthomas12/CastleOnTheHill" class="githublink"
+                                      target="_blank"><strong>GitHub</strong></a>
+                                  <a href="https://polar-shelf-50510.herokuapp.com/" class="websitelink"
+                                      target="_blank"><strong>|Deployed Site</strong></a>
+                              </div>
+                          </div>
+                          <img src={Project3} alt="Well-Me" class="thumbnails" id="project3"></img>
                   </div>
                   </div>
                   <div class="col-sm-4" id="foliocolumn">
